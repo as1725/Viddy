@@ -44,7 +44,7 @@ const VideoCard = ({ title, creator, avatar, thumbnail, video }) => {
 					</View>
 				</View>
 
-				{/* <View className="pt-2">
+				<View className="pt-2">
 					<TouchableOpacity onPress={toggleDropdown}>
 						<Image
 							source={icons.menu}
@@ -67,7 +67,7 @@ const VideoCard = ({ title, creator, avatar, thumbnail, video }) => {
 							</TouchableOpacity>
 						</View>
 					)}
-				</View> */}
+				</View>
 			</View>
 
 			{play ? (
