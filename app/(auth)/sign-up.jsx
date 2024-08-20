@@ -81,10 +81,10 @@ const SignUp = () => {
 					<Image
 						source={images.logo}
 						resizeMode="contain"
-						className="w-[115px] h-[34px]"
+						className="w-[150px] h-[90px]"
 					/>
 
-					<Text className="text-2xl font-semibold text-white mt-10 font-psemibold">
+					<Text className="text-2xl font-semibold text-white mt-2 font-psemibold">
 						Create an account
 					</Text>
 					<FormField

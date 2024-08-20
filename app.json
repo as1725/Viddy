@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Ustaad",
-    "slug": "ustaad",
-    "scheme": "ustaad",
+    "name": "Viddy",
+    "slug": "viddy",
+    "scheme": "viddy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,21 +13,28 @@
       "backgroundColor": "#000000"
     },
     "ios": {
-      "supportsTablet": true,
-      "package": "com.secureteams.ustaad"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#000000"
       },
       "package": "com.secureteams.ustaad"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "91f47ab4-8e57-4bef-9eb8-be4e106549fc"
+      }
+    }
   }
 }

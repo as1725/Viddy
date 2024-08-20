@@ -79,11 +79,11 @@ const SignIn = () => {
 					<Image
 						source={images.logo}
 						resizeMode="contain"
-						className="w-[115px] h-[34px]"
+						className="w-[150px] h-[100px]"
 					/>
 
-					<Text className="text-2xl font-semibold text-white mt-10 font-psemibold">
-						Log in to Aora
+					<Text className="text-2xl font-semibold text-white mt-5 font-psemibold">
+						Log in to Viddy
 					</Text>
 
 					<FormField

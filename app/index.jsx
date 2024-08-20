@@ -19,7 +19,7 @@ export default function App() {
 				<View className="w-full flex justify-center items-center h-full px-4">
 					<Image
 						source={images.logo}
-						className="w-[130px] h-[84px]"
+						className="w-[180px] h-[100px] mb-0"
 						resizeMode="contain"
 					/>
 
@@ -32,7 +32,7 @@ export default function App() {
 						<Text className="text-3xl text-white font-bold text-center">
 							Discover Endless{"\n"}
 							Possibilities with{" "}
-							<Text className="text-secondary-200">Aora</Text>
+							<Text className="text-secondary-200">Viddy</Text>
 						</Text>
 
 						<Image
@@ -44,7 +44,7 @@ export default function App() {
 
 					<Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
 						Where Creativity Meets Innovation: Embark on a Journey of Limitless
-						Exploration with Aora
+						Exploration with Viddy
 					</Text>
 					<CustomButton
 						title="Continue with Email"
